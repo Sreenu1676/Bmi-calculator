@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: aqua;
+  font-size: 30px;
+}
+.title {
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-left: 100px;
+  color: black;
+  letter-spacing: 5px;
+  padding-top: 20px;
+}
+.bmi-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 30vw;
+  margin: 100px;
+}
+.bmi-form input {
+  padding: 15px;
+  border: none;
+}
+
+
+.bmi-button {
+  padding: 10px;
+  border: none;
+  background-color: midnightblue;
+  color: white;
+  cursor: pointer;
+}
+
+.reset-button{
+ padding: 10px;
+ border: none;
+ color:black;
+ background-color:cornsilk;
+ cursor:pointer;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
